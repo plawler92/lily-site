@@ -6,11 +6,22 @@ media_folder: static/assets
 public_folder: /assets
 
 collections:
-  - label: Pages
-    name: pages
+  - name: "pages"
+    label: "Pages"
     files:
-      - label: Services
-        name: services
-        file: "content/services/services.md"
+      - file: "content/services/services.md"
+        label: "Services Page"
+        name: "services"
         fields:
-          - {label: Services, name: services, widget: markdown}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "services-page"}
+          - {label: "Title", name: "title", widget: "hidden", default: "services"}
+          - {label: "Services Content", name: "body", widget: "markdown"}
+
+
+
+
+      # - label: Services
+      #   name: services
+      #   file: "content/services/services.md"
+      #   fields:
+      #     - {label: Services, name: services, widget: markdown}

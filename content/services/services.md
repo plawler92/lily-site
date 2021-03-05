@@ -1,6 +1,6 @@
+<!-- ---
+templateKey: 'services-page'
+path: /services
+title: Services
 ---
-services: |-
-  * Logo Design
-  * Custom T-Shirts
-  * Custom Coffee Mugs
----
+Services page is here -->
