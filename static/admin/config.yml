@@ -1,0 +1,15 @@
+backend:
+  name: test-repo
+
+media_folder: static/assets
+public_folder: /assets
+
+collections:
+  - label: Pages
+    name: pages
+    files:
+      - label: Services
+        name: services
+        file: "content/services/services.md"
+        fields:
+          - {label: Services, name: services, widget: markdown}
