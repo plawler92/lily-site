@@ -1,6 +1,3 @@
-<!-- ---
-templateKey: 'services-page'
-path: /services
-title: Services
----
-Services page is here -->
+### Hi there!
+* This is a list item
+* and another one.
