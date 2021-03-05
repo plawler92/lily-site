@@ -1,0 +1,48 @@
+@import 'colors';
+
+%align-center {
+    display: flex;
+    align-items: center
+}
+
+.header {
+    background: $teal;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    //padding: 0.5rem 1rem;
+    //position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo {
+    cursor: pointer;
+    //margin-left: 24px;
+}
+
+.linklist {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: list-item;
+    margin: 1rem;
+}
+
+.linkelements {
+    text-decoration: none;
+    color: black;
+}
+
+.linkelements:hover {
+    color: $compRed;
+    transition: all 0.3s ease;
+}

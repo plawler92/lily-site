@@ -1,0 +1,11 @@
+@import "colors";
+
+footer {
+    background-color: $dark;
+    color: white;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}

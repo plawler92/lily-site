@@ -1,15 +1,16 @@
 module.exports = {
   siteMetadata: {
     title: "lily",
+    tagline: "live. love. lily."
   },
   plugins: [
     "gatsby-plugin-sass",
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: "",
-      },
-    },
+    // {
+    //   resolve: "gatsby-plugin-google-analytics",
+    //   options: {
+    //     trackingId: "",
+    //   },
+    // },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     {
@@ -27,5 +28,15 @@ module.exports = {
       },
       __key: "pages",
     },
+    "gatsby-plugin-netlify-cms",
+    // {
+    //   resolve: 'gatsby-plugin-i18n',
+    //   options: {
+    //     langKeyDefault: 'en',
+    //     useLangKeyLayout: false,
+    //     langKeyForNull: 'en',
+    //     prefixDefault: true,
+    //   }
+    // }
   ],
 };
